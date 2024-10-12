@@ -2,4 +2,51 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    background: url(inflicted.png);
+   
  }
+
+ .Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.My-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.My-info-text {
+    text-align: left;
+    color: aliceblue;
+   
+}
+
+.My-name{
+    margin-bottom: 50px;
+    
+}
+
+.My-history{
+    margin-bottom: 10px;
+}
+
+.My-naviki{
+    margin-bottom: 10px;
+}
+
+.My-project{
+    margin-bottom: 10px;
+}
+
+.My-info-photo {
+    width: 30%; /* Adjust the width as needed */
+    text-align: right;
+}
+
+.My-info-photo img {
+    max-width: 100%;
+    height: auto;
+}
